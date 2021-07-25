@@ -32,12 +32,12 @@ function loadQuotes(random)
     quotesContainer.innerHTML =
     `
         <div>
-        <label>Sentence:</label>
-        <label class="">${random.sentence}</label><br>
-        <label>Name:--</label>
-        <label>${random.character.name}</label><br>
-        <label>House Name:--</label>
-        <label>${random.character.house.name}</label>
+        <label class="bold">Name:--</label>
+        <label class="light-bold">${random.character.name}</label><br>
+        <label class="bold">House Name:--</label>
+        <label class="light-bold">${random.character.house.name}</label><br>
+        <label class="bold">Sentence:</label>
+        <label class="light-bold">${random.sentence}</label>
         </div>
         <input type = "button" value = "⚔️   Get New Quote   ⚔️" onclick="refreshQuotes()"></input>
     `;
