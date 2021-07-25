@@ -1,0 +1,30 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+body {
+    /*    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    display: grid;
+    /* height: 100vh; */
+    place-items: center;
+    /* background-image: url("https://wallpapercave.com/wp/wp2131707.jpg");
+    background-repeat: no-repeat;  */
+    background-color:aliceblue;
+    font-family: 'Cinzel Decorative', cursive;
+  }
+  
+
+.quotes-container {
+   border: 1px solid;
+    /*   background: orchid; */
+    padding: 20px;
+    margin-bottom: 8px;
+    border-radius: 16px;
+    font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+    gap: 10px;
+    max-width: 450px;
+    transition: all 200ms;
+    opacity: 0.8;
+  }
+
