@@ -34,6 +34,7 @@ body {
   }
   .light-bold{
       font-size: 15px;
-      font-weight: 600;
+      font-weight: 500;
+      color:rgb(36, 0, 0);
   }
 
