@@ -15,7 +15,7 @@ body {
 
 .quotes-container {
    border: 1px solid;
-    /*   background: orchid; */
+  background: rgb(112, 197, 218); 
     padding: 20px;
     margin-bottom: 8px;
     border-radius: 16px;
@@ -26,5 +26,14 @@ body {
     max-width: 450px;
     transition: all 200ms;
     opacity: 0.8;
+    font-family: 'Cinzel Decorative', cursive;
+  }
+  .bold{
+      font-size: 18px;
+      font-weight: bolder;
+  }
+  .light-bold{
+      font-size: 15px;
+      font-weight: 600;
   }
 
